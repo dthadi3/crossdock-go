@@ -6,7 +6,9 @@ go:
     - 1.6
     - 1.7
     - tip
-
+arch:
+    - AMD64
+    - ppc64le
 env:
     global:
         - GO15VENDOREXPERIMENT=1
